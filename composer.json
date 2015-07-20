@@ -1,0 +1,14 @@
+{
+    "name": "dotplant/wysiwyg-ckeditor",
+    "description": "CKEditor WYSIWYG widget for DotPlant2 backend",
+    "type": "dotplant2-extension",
+    "minimum-stability": "dev",
+    "require": {
+        "devgroup/yii2-ckeditor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DotPlant\\CKEditor\\": "src/"
+        }
+    }
+}
