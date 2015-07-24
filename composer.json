@@ -4,7 +4,7 @@
     "type": "dotplant2-extension",
     "minimum-stability": "dev",
     "require": {
-        "2amigos/yii2-ckeditor-widget" : "~1.0"
+        "mihaildev/yii2-ckeditor": "*"
     },
     "autoload": {
         "psr-4": {
