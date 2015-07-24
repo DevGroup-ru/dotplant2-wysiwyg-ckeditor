@@ -9,7 +9,7 @@ class m150720_094657_initial extends Migration
     {
         $this->insert('{{%wysiwyg}}', [
             'name' => 'CKEditor',
-            'class_name' => '\mihaildev\ckeditor\CKEditor',
+            'class_name' => 'DotPlant\CKEditor\CKEditorWidget',
             'params' => yii\helpers\Json::encode([
                 'editorOptions' => [
                     'preset' => 'full',
