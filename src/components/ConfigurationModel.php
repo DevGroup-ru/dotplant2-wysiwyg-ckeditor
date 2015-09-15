@@ -25,7 +25,11 @@ class ConfigurationModel extends BaseConfigurationModel
     public function webApplicationAttributes()
     {
         return [
-
+            'modules' => [
+                'WysiwygCKEditor' => [
+                    'class' => 'DotPlant\CKEditor\Module',
+                ],
+            ],
         ];
     }
 
@@ -51,11 +55,7 @@ class ConfigurationModel extends BaseConfigurationModel
     public function commonApplicationAttributes()
     {
         return [
-            'modules' => [
-                'WysiwygCKEditor' => [
-                    'class' => 'DotPlant\CKEditor\Module',
-                ],
-            ],
+            
         ];
     }
 
